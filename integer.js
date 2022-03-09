@@ -85,18 +85,15 @@
 
 // let arr = [7, 10, 3, 5];
 // let index = arr[arr.length - 1];
-// let t = true
-//     for (let i = 0; i <= arr.length; i++) {
+// let t = 'mavjud emas'
+
+//     for (let i = 0; i < arr.length; i++) {
 //       if (arr[i] < index) {
-//         console.log(arr[i]);
-//         t= false
+//         t = arr[i]
 //         break;
-//       } else {
-//         console.log(`mavjud emas`);
-//         // break;
-//       }
 //     }
-  
+// }
+// console.log(t);
 
   
 
@@ -174,18 +171,15 @@
 
 // let arr = [11, 14, 17, 20, 23];
 // let natija = 0
+// let count = 0
 
-// natija=arr[1] - arr[0];
  
 // for (let i =0; i<arr.length; i++) {
-//     if (arr[i+1] - natija == arr[i]) {
-//         console.log(natija);
-//         break;
-//     }
-//     else {
-//         console.log("false");
-//     }
+//     natija += arr[i+1] - arr[i];
+//     count ++;
+//     // console.log(natija);
 // }
+// console.log(natija/count);
 
 
 
