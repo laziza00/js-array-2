@@ -60,7 +60,12 @@
 // let newArr =[]
 
 // for (let i=0; i<=arr.length; i++) {
-//     i%2==0? newArr[newArr.length] =arr[i]: newArr[newArr.length]
+//     if (i%2==0){
+//         newArr[newArr.length] = arr[i]
+//     }
+//     else if (i%2==1) {
+//         newArr[newArr.length]= arr[i]
+//     }
 
 // }
 // console.log(newArr);
