@@ -83,19 +83,21 @@
 
 
 
-// =================array 159
+// =================array 159 chalaroq
 
-let arr = [7, 10, 3, 5];
-let index = arr[arr.length - 1];
-    for (let i = 0; i <= arr.length; i++) {
-      if (arr[i] < index) {
-        console.log(arr[i]);
-        break;
-      } else {
-        console.log(`mavjud emas`);
-        // break;
-      }
-    }
+// let arr = [7, 10, 3, 5];
+// let index = arr[arr.length - 1];
+// let t = true
+//     for (let i = 0; i <= arr.length; i++) {
+//       if (arr[i] < index) {
+//         console.log(arr[i]);
+//         t= false
+//         break;
+//       } else {
+//         console.log(`mavjud emas`);
+//         // break;
+//       }
+//     }
   
 
   
@@ -153,6 +155,21 @@ let index = arr[arr.length - 1];
 //     }
 // }
 // console.log(sum/count);
+
+// =================array 163
+
+// let arr =[5, 10, 3, 7, 10, 12, 4];
+// let k =0;
+// let l = 4;
+// let sum =0
+
+
+// for (let i =0; i<arr.length; i++) {
+//     if (i>l) {
+//         sum += arr[i]
+//     }
+// }
+// console.log(sum);
 
 
 // =================array 164
