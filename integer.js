@@ -70,17 +70,15 @@
 // }
 // console.log(newArr);
 
-// =================array 158 chala
+// =================array 158 
 
-// let arr =[7, 10, 3, 2];
-// let n = arr.length;
-// let start = arr[0];
-// let end = arr.length
+// let arr =[1, 2, 3, 10, -4, true];
+// res = ""
 
-// for (let i =0; i<arr.length; i++) {
-//     if (arr[i] )
+// for (let i =0; i<arr.length/2; i++) {
+//     res += arr[i] + " " + arr[arr.length-1-i] + " ";
 // }
-
+// console.log(res);
 
 
 // =================array 159 chalaroq
@@ -172,7 +170,7 @@
 // console.log(sum);
 
 
-// =================array 164
+// =================array 164 chala
 
 // let arr = [11, 14, 17, 20, 23];
 // let natija = 0
@@ -189,6 +187,24 @@
 //     }
 // }
 
+
+
+// =================array 165 chala
+
+// let arr = [11, 14, 17, 20, 23];
+// let natija = 0
+
+// natija=arr[1] - arr[0];
+ 
+// for (let i =0; i<arr.length; i++) {
+//     if (arr[i+1] - natija == arr[i]) {
+//         console.log(natija);
+//         break;
+//     }
+//     else {
+//         console.log("false");
+//     }
+// }
 
 // =================array 166
 
