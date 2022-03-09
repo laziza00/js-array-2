@@ -42,7 +42,7 @@
 
 // =================array 156
 
-// let arr =[7,10,5,3,2];
+// let arr =[7,10,5,3,2, true];
 // let newArr =[]
 
 // for (let i=arr.length; i>=0; i--) {
