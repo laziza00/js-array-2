@@ -156,9 +156,8 @@
 // let l = 4;
 // let sum =0
 
-
 // for (let i =0; i<arr.length; i++) {
-//     if (i>l) {
+//     if (k>=i || i>=l) {
 //         sum += arr[i]
 //     }
 // }
