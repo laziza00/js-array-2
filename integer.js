@@ -53,21 +53,21 @@
 
 // =================array 160
 
-// let arr = [10,12,5,11,13,15];
-// let start = arr[0];
-// let end = arr.length;
-// let temp = true;
+let arr = [10,12,5,11,13,15];
+let start = arr[0];
+let end = arr.length;
+let t = true;
 
-// for(let i =arr.length-2; i>1; i--){
-//   if(start<arr[i] && end<arr[i]){
-//     console.log(i);
-//     temp=false;
-//     break;
-//   }
-// }
-// if(temp==true){
-//   console.log(false);
-// }
+for(let i =arr.length-2; i>1; i--){
+  if(start<arr[i] && end<arr[i]){
+    console.log(i);
+    t=false;
+    break;
+  }
+}
+if(t==true){
+  console.log(false);
+}
 
 
 
