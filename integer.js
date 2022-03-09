@@ -4,10 +4,10 @@
 // let count =0;
 // let newArr =[]
 
-// for (let i=0; i<=arr.length; i++) {
+// for (let i=arr.length; i>0; i--) {
 //     if (arr[i]%2==0) {
 //         count++
-//         newArr[newArr.length] =arr[i];
+//         newArr[newArr.length] =i;
 //     }
 // }
 // console.log(newArr,count);
