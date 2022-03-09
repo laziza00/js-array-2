@@ -70,6 +70,39 @@
 // }
 // console.log(newArr);
 
+// =================array 158 chala
+
+// let arr =[7, 10, 3, 2];
+// let n = arr.length;
+// let start = arr[0];
+// let end = arr.length
+
+// for (let i =0; i<arr.length; i++) {
+//     if (arr[i] )
+// }
+
+
+
+// =================array 159
+
+let arr = [7, 10, 3, 5];
+let index = arr[arr.length - 1];
+    for (let i = 0; i <= arr.length; i++) {
+      if (arr[i] < index) {
+        console.log(arr[i]);
+        break;
+      } else {
+        console.log(`mavjud emas`);
+        // break;
+      }
+    }
+  
+
+  
+
+
+
+
 // =================array 160
 
 // let arr = [10,12,5,11,13,15];
