@@ -81,7 +81,7 @@
 // console.log(res);
 
 
-// =================array 159 chalaroq
+// =================array 159 
 
 // let arr = [7, 10, 3, 5];
 // let index = arr[arr.length - 1];
@@ -167,19 +167,23 @@
 // console.log(sum);
 
 
-// =================array 164 chala
+// =================array 164 
 
 // let arr = [11, 14, 17, 20, 23];
 // let natija = 0
 // let count = 0
 
- 
 // for (let i =0; i<arr.length; i++) {
 //     natija += arr[i+1] - arr[i];
 //     count ++;
-//     // console.log(natija);
+//     if (natija/count == arr[i+1] - arr[i]){
+//         console.log(arr[i+1] - arr[i]);
+//         break;
+//     }
+//     else {
+//         console.log("false");
+//     }
 // }
-// console.log(natija/count);
 
 
 
