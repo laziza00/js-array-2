@@ -13,6 +13,20 @@
 // console.log(newArr,count);
 
 
+// =================array 154
+
+// let arr =[7, 10, 5, 3, 2];
+// let k =2
+// let newArr = []
+
+// for (let i =0; i<arr.length; i++) {
+//     if (k<= arr.length && i%k==0) {
+//         newArr[newArr.length] = arr[i]
+//     }
+// }
+// console.log(newArr);
+
+
 // =================array 155
 
 // let arr =[7,10,5,3,2];
@@ -53,21 +67,21 @@
 
 // =================array 160
 
-let arr = [10,12,5,11,13,15];
-let start = arr[0];
-let end = arr.length;
-let t = true;
+// let arr = [10,12,5,11,13,15];
+// let start = arr[0];
+// let end = arr.length;
+// let t = true;
 
-for(let i =arr.length-2; i>1; i--){
-  if(start<arr[i] && end<arr[i]){
-    console.log(i);
-    t=false;
-    break;
-  }
-}
-if(t==true){
-  console.log(false);
-}
+// for(let i =arr.length-2; i>1; i--){
+//   if(start<arr[i] && end<arr[i]){
+//     console.log(i);
+//     t=false;
+//     break;
+//   }
+// }
+// if(t==true){
+//   console.log(false);
+// }
 
 
 
