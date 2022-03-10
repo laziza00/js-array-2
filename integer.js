@@ -5,7 +5,7 @@
 // let newArr =[]
 
 // for (let i=arr.length; i>0; i--) {
-//     if (arr[i]%2==0) {
+//     if (arrrr[i]%2==0) {
 //         count++
 //         newArr[newArr.length] =i;
 //     }
@@ -294,28 +294,38 @@
 // console.log(a);
 
 
-// =================array 171 chala
+// =================array 171 
 
 // let arr = [1, -10, 2, 1, 2, 5];
 // let newArr = [];
-
-// for (let i =0; i<arr.length; i++) {
-//     if 
-// }
-
-
-// =================array 172 chala
-
-// let a = [true, -5];
-// let b = [2, null]
-
-// for (let i =0, j=0; i<a.length, j<b.length; i++, j++) {
-//     if (a.length==b.length){
-//         a = b[j];
-//         b = a[i]
+// let count = 0;
+// for(let i = 0; i < arr.length; i++){
+//   for(let j = i - 1; j >= 0; j--){
+//     if(arr[j] != arr[i]){
+//       count = 0; 
+//     } else {
+//       count = 1;
+//       break;
 //     }
+//   }
+//   if(count == 0){
+//     newArr[newArr.length] = arr[i];
+//   }
 // }
-// console.log(a, b);
+// console.log(newArr);
+
+// =================array 172 
+
+// let arr = [1, false];
+// let newArr = [null, true ];
+// let tempArr = [];
+
+// for(let i = 0; i < arr.length; i++){
+//   tempArr[i] = arr[i];
+//   arr[i] = newArr[i];
+//   newArr[i] = tempArr[i]; 
+// }
+// console.log(arr, newArr);
 
 
 // =================array 173
@@ -391,6 +401,9 @@
 // console.log(b);
 
 
+// =================array 178
+
+
 // =================array 179
     
 // let n =10;
@@ -422,9 +435,24 @@
 
 // =================array 181
 
+let a = [1, 't', 15, 't']
+let b = [2, 4]
+let c =[]
+let count =0
 
-
-
+for (let i =0; i<a.length; i++) {
+    for (j =0; j<b.length; b++) {
+        if (a[i]==a[i] && a[i]==b[j]){
+            a[i].pop()
+        }
+        else {
+            c[c.length] = a[i]
+            c[c.length] = b[j]
+            break;
+        }
+    }
+}
+console.log(c);
 
 // =================array 182
 
