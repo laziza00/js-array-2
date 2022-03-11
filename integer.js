@@ -403,6 +403,35 @@
 
 // =================array 178
 
+// let n = [9, 14, 3, 2, 1];
+// let count = 1;
+// let arr = [];
+// let otherCount = 1;
+// let newArr = [];
+// for(let i = 0; i < n.length; i++){
+//   if(n[i] < n[i + 1]){
+//     count++;
+//     arr[arr.length] = n[i];
+//   } else{
+//     arr[arr.length] = n[i];
+//     for(let j = arr.length; j < n.length; j++){
+//       if(n[j] < n[j + 1]){
+//         otherCount++;
+//         newArr[newArr.length] = n[j];
+//       } else{
+//         newArr[newArr.length] = n[j];
+//         break;
+//       }
+//     }
+//     break;
+//   }
+// }
+// if(count >= otherCount){
+//   console.log(arr);
+// } else{
+//   console.log(newArr);
+// }
+
 
 // =================array 179
     
@@ -435,24 +464,24 @@
 
 // =================array 181
 
-let a = [1, 't', 15, 't']
-let b = [2, 4]
-let c =[]
-let count =0
+// let a = [1, 't', 15, 't']
+// let b = [2, 4]
+// let c =[]
+// let count =0
 
-for (let i =0; i<a.length; i++) {
-    for (j =0; j<b.length; b++) {
-        if (a[i]==a[i] && a[i]==b[j]){
-            a[i].pop()
-        }
-        else {
-            c[c.length] = a[i]
-            c[c.length] = b[j]
-            break;
-        }
-    }
-}
-console.log(c);
+// for (let i =0; i<a.length; i++) {
+//     for (j =i; j<b.length; b++) {
+//         if (a[i]==b[j+1] ){
+//             a.pop()
+//         }
+//         else {
+//             c[c.length] = a[i]
+//             c[c.length] = b[j]
+//             break;
+//         }
+//     }
+// }
+// console.log(c);
 
 // =================array 182
 
@@ -471,3 +500,65 @@ console.log(c);
 //     }
 // }
 // console.log(t);
+
+
+
+// .carousel {
+//     overflow: hidden;
+//     display: flex;
+//     justify-content: center;
+//     padding: 40px 0;
+//     .carousel__list {
+//         padding: 0 !important;
+//         margin: 0 !important;
+//         display: flex;
+//         justify-content: center;
+//         list-style-type: none;
+//         overflow: hidden;
+//         .carousel__item {
+//             position: relative;
+  
+//             img {
+//                 width: 100%;
+//                 height: 100%;
+//             }
+//             .left-btn {
+//                 position: absolute;
+//                 top: 50%;
+//                 left: 3%;
+//             }
+//             .right-btn {
+//                 position: absolute;
+//                 top: 50%;
+//                 right: 3%;
+//             }
+//         }
+//         .carousel__item:nth-child(1) {
+//             display: none;
+//         }
+//         .carousel__item:nth-child(2) {
+//             display: none;
+//         }
+//         .carousel__item:nth-child(3) {
+//             display: none;
+//         }
+//     }   
+// }
+
+
+// .btn {
+//     background-color: #c7965e;
+//     color: #fff;
+//     font-size: 20x;
+//     width: 40px;
+//     height: 40px;
+//     border-radius: 50%;
+//     padding: 12px 13px;
+//     border: none;
+// }
+
+
+
+// .show {
+//     display: block;
+// }
